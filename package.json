@@ -1,0 +1,27 @@
+{
+  "name": "quikcrypt",
+  "version": "1.1.0",
+  "description": "Quickly encrypt or decrypt messages",
+  "main": "secret_lang.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "encryption",
+    "decryption",
+    "fun",
+    "CLI"
+  ],
+  "author": "Dante R",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "clear": "^0.1.0",
+    "clipboardy": "^1.2.3",
+    "figlet": "^1.2.0",
+    "inquirer": "^6.1.0"
+  },
+  "bin": {
+    "quikcrypt": "./secret_lang.js"
+  }
+}
